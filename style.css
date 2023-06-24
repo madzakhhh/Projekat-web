@@ -1,0 +1,46 @@
+/* preko klase*/
+.form-group{
+    padding: 4px;
+}
+
+/* preko id-a */
+#jezici {
+   margin-bottom: 3px;
+}
+p {
+    text-align: justify;
+}
+
+.list-group-item, p.mb-1, p{
+   color: darkslateblue;
+}
+/*kompletnom tagu*/
+img {
+    border-radius: 10px;
+    padding: 4px;
+}
+
+a:hover{
+    background-color: lightblue;
+    border-radius: 3px;
+}
+a:link{
+    text-decoration: none;
+    font-size: large;
+}
+a:visited{
+    color: #dee2e6;
+}
+
+/* tag unutar taga*/
+div>nav{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 30px;
+
+}
+
+a:first-child{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+

@@ -1,0 +1,23 @@
+div>nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+
+a:first-child{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+a:hover{
+    background-color: lightblue;
+    border-radius: 3px;
+}
+a:link{
+    text-decoration: none;
+    font-size: large;
+}
+a:visited{
+    color: #dee2e6;
+}

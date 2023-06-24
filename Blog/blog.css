@@ -1,0 +1,43 @@
+#nav-blog{
+    padding:20px;
+    
+
+}
+.container{
+    position: relative;
+}
+.text-block {
+    position: absolute;     
+    margin-top: 45%;
+    margin-left:10px;
+    background-color: gray;
+    width: fit-content;
+
+    
+   
+  }
+
+div>nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+
+a:first-child{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+a:hover{
+    background-color: lightblue;
+    border-radius: 3px;
+}
+a:link{
+    text-decoration: none;
+    font-size: large;
+}
+a:visited{
+    color: #dee2e6;
+}

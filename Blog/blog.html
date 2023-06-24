@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          Blog
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="icon" href="..\person.svg">
+        <link rel="stylesheet" href="blog.css">
+       
+    </head>
+
+    
+
+
+    <body>
+          <!-- header -->
+          <header>
+              <nav class="navbar navbar-expand-sm bg-llght text-light ">
+                  <div class="container-fluid  ">
+                    <a class="navbar-brand " href="../naslovna.html">
+                      <img class="img-fluid " src="../headerslika.png" alt="Hata Madzak" style="height: 50px; width: 30px" class="rounded-pill"> 
+                    </a>
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link " href="../naslovna.html">Naslovna</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../Blog/blog.html"  target="_self" >Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Galerija1/galerija1.html"  target="_self">Galerija 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="../Galerija2/galerija2.html"  target="_self">Galerija 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+          </header>
+
+          <!-- Clanci -->
+          <div class="container my-5">
+          
+              <div class="row m-3">
+                    <div class="col-10  container-fluid offset-1 p-3 bg-primary text-light">                             
+                        <h3>IT Blog</h3>
+                        <ul class="nav flex-column " >
+                          <li  id="nav-blog">  <a class="text-decoration-none text-light" href="#">IT Blog</a> </li>
+                          <li  id="nav-blog">                             
+                                <dl >
+                                      <dd> <a class="text-decoration-none text-light" href="#tema1">Mikroroboti isporučuju lijekove stanicama raka</a> </dd>
+                                      <dd>Grupa naučnika je osmislila metodu liječenja raka uz pomoć mikroroba koji se kreću kroz tijelo mjenjanjem pH vrijednosti okoline.</dd>
+                                </dl>    
+                          </li>
+                          <li  id="nav-blog">                       
+                            <dl >
+                              <dd> <a class="text-decoration-none text-light" href="#tema2">Digitalni potpisi</a> </dd>
+                              <dd> Vrste digitalnih potpisa i kako oni štite podatke.</dd>
+                            </dl>                     
+                          </li>
+                        </ul>
+                    </div>
+              </div>
+
+            <article class="row m-3 " id="tema1">
+                <div class="col-10 offset-1 ">
+                    <div class="p-5 bg-primary text-light">
+                          <h2 class="text-light m-5" id="pocetak1">Mikroroboti isporučuju lijekove stanicama raka</h2>
+
+                          <ul class="nav nav-tabs">
+                            <li class="active " id="nav-blog"><a class="text-decoration-none text-light" href="#pocetak1">Početak</a></li>                  
+                            <li  id="nav-blog"><a class="text-decoration-none text-light" href="#mikroroboti">Mikroroboti</a></li>
+                            <li  id="nav-blog"><a class="text-decoration-none text-light" href="#fotografije">Fotografije</a></li>
+                            <li  id="nav-blog"><a class="text-decoration-none text-light" href="#oirs">Testiranje robota</a></li>
+                            <li  id="nav-blog"><a class="text-decoration-none text-light" href="#buducnost">Buducnost</a></li>
+                          </ul>
+
+                          <div class="container mt-4 p-5 bg-primary text-white rounded">
+                              <p class="lead">Kemoterapija uspješno liječi mnoge oblike raka, ali nuspojave mogu izazvati pustoš u ostatku tijela. Isporuka lijekova stanicama raka mogla bi pomoći u smanjenju ovih neugodnih simptoma. Istraživači su napravili mikrorobote u obliku ribe koji se magnetima vode do stanica raka, gdje ih promjena pH pokreće da otvore usta i oslobode svoj teret kemoterapije.
+                              </p>
+                          </div>
+
+                         
+                          <div class="container">
+                                <div class="row">
+                                      <div class="col">
+                                        <h4 id="mikroroboti"> Mikroroboti </h4>
+                                        <p class="lead"> Naučnici su prethodno osmislili robote u mikrodimenznijama koji mogu manipulisati sitnim objektima, ali ih većina ne može promijeniti njihov oblik kako bi obavljali složene zadatke, poput oslobađanja lijekova.
+                                           Neki su izradili 4D objekte (3D objekte koji mijenjaju oblik kao odgovor na određene podražaje), ali koji obično izvode samo jednostavne radnje, a njihovo kretanje se ne može kontrolisati daljinski. 
+                                           Kao korak prema biomedicinskim primjenama za ove uređaje, Jiawen Li, Li Zhang, Dong W željeli su razviti mikrorobote koji mijenjaju oblik koji bi mogli biti vođeni magnetima na određena mjesta za pružanje tretmana.
+                                           Budući da tumori postoje u kiselom mikrookruženju, tim je odlučio natjerati mikrorobote da promijene oblik kao odgovor na sniženi pH. </p>
+                                      </div>
+                                </div>
+                                <div class="row justify-content-center ">
+                                        <div class="col-5 card bg-light shadow  " id="fotografije" style="width: 18rem;">
+                                          <img src="rr.png" class="card-img-top m-1" alt="...">
+                                          <div class="card-body">                                            
+                                            <p class="card-text text-primary">Mikrorobot oblika ribe.</p>
+                                            
+                                          </div>
+                                        </div>
+
+                                        <div class=" col-5 offset-1 card bg-light shadow  " style="width: 18rem;">
+                                          <img src="r.png" class="card-img-top  m-1" alt="...">
+                                          <div class="card-body">                                          
+                                            <p class="card-text text-primary">Mikrorobot oblika raka.</p>                                          
+                                          </div>
+                                        </div>
+                                                    
+                                </div>
+
+                                <div class="row " id="oirs">
+                                          <h4 class="mt-5" > Testiranje robota </h4>
+                                          <p class="lead">Istraživači su demonstrirali različite sposobnosti mikrorobota u nekoliko testova. Na primjer, mikrorobot u obliku ribe imao je podesiva "usta" koja su se otvarala i zatvarala.
+                                             Tim je pokazao da mogu usmjeravati ribu kroz simulirane krvne žile da dođu do stanica raka na određenom području petrijeve zdjelice.
+                                              Kada su snizili pH okolne otopine, riba je otvorila usta kako bi ispustila lijek za kemoterapiju, koji je ubio obližnje stanice. 
+                                              Iako je ova studija obećavajući dokaz koncepta, mikrorobote je potrebno učiniti još manjim kako bi se kretali stvarnim krvnim žilama, 
+                                              a potrebno je identificirati prikladnu metodu snimanja za praćenje njihovih kretanja u tijelu, kažu istraživači.</p>
+                                </div>
+
+                                <div class="row" id="buducnost">
+                                        <h4 class="mt-5"> Budućnost</h4>
+                                        <p class="lead">Rojevi mikrorobota uskoro bi mogli plivati , kotrljati se , puzati , hodati , migoljiti se i prevrtati kroz naša tijela 
+                                          kako bi isporučili lijekove. Ali novi dizajni izgledaju posebno obećavajući, zahvaljujući njihovoj sposobnosti da automatski 
+                                          otpuštaju lijekove tamo gdje su potrebni.
+
+                                          Naravno, mikroroboti još nisu sasvim spremni plivati ​​vašim venama. Tim kaže da ih je potrebno smanjiti,
+                                          a također je potrebno razviti način za njihovo praćenje kroz tijelo.</p>
+                                </div>
+                                <!-- https://getbootstrap.com/docs/4.0/utilities/embed/ -->
+                                <div class="row">
+                                <div class=" pt-5 bg-primary">
+                                  <div class=" embed-responsive pb-5 pl-5 embed-responsive-16by9">
+                                    <iframe src='https://players.brightcove.net/5527299009001/Sy5ZcUPLf_default/index.html?videoId=6164382146001' allowfullscreen frameborder=0></iframe>
+                                    </div>                                                 
+                                </div>
+                                </div>                            
+                           </div> <!--container-->
+
+                    </div>   
+                    </div>      
+              </article>
+
+
+              <article class="row m-1 mt-5  text-light " id="tema2">
+
+                          <div class="col-10 p-5 pb-0 offset-1 bg-primary" id="pocetak2">
+                                <h3  class="pb-2"> Kriptografija - Digitalni potpisi </h3>                    
+                              <ul class="nav nav-tabs">
+                                <li class="active " id="nav-blog"><a class="text-decoration-none text-light" href="#pocetak2">Početak</a></li>                  
+                                <li  id="nav-blog"><a class="text-decoration-none text-light" href="#uvod">O temi</a></li>
+                                <li  id="nav-blog"><a class="text-decoration-none text-light" href="#klase">Klase digitalnih potpisa</a></li>
+                                <li  id="nav-blog"><a class="text-decoration-none text-light" href="#razlike">Razlike digitalnog i elektonskog potpisa.</a></li>
+                              </ul>
+                          </div>
+
+
+                          <div class="col-10 p-5 offset-1 bg-primary" id="uvod">
+                                <p class="lead">Digitalni potpis je kriptografska vrijednost koja se izračunava iz podataka i tajnog ključa poznatog samo potpisniku.</p>
+                                <p class="lead">U stvarnom svijetu, primatelju poruke potrebna je garancija da poruka pripada pošiljatelju i da ne bi trebao biti u mogućnosti odbaciti porijeklo te poruke. Ovaj zahtjev je vrlo važan u poslovnim aplikacijama.</p>                     
+                          </div>
+
+                          <div class="col-10 p-5 offset-1 bg-primary ">
+                            <div class="container ">
+                                <div class="row">
+                                    <img src="tema2.png" width="60%">
+                                    <div class="text-block ">
+                                      <h4>Digitalni potpis od pošiljaoca do primatelja.</h4>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="col-10 p-5 offset-1 bg-primary" id="klase">
+                                <h4>Klase i vrste digitalnih potpisa</h4>
+                                <ul class="list-group ">
+                                      <li class="list-group-item text-light  bg-primary">
+                                        <p class="lead">
+                                          Klasa 1. Ne može se koristiti za pravne poslovne dokumente jer se provjeravaju samo na temelju ID-a e-pošte i korisničkog imena.
+                                           Potpisi klase 1 pružaju osnovnu razinu sigurnosti i koriste se u okruženjima s niskim rizikom od kompromitacije podataka.
+                                        </p>
+                                      </li>
+                                      <li class="list-group-item text-light bg-primary">
+                                        <p class="lead">
+                                          Klasa 2. Često se koristi za elektornsko podnošenje poreznih dokumenata, uključujući prijave poreza na dohodak i prijave poreza na robu i usluge.
+                                           Digitalni potpisi klase 2 provjeravaju identitet potpisnika u bazi podataka.
+                                           Digitalni potpisi klase 2 koriste se u okruženjima gdje su rizici i posljedice kompromitiranja podataka umjereni.
+                                        </p>
+                                      </li>
+                                      <li class="list-group-item text-light bg-primary">
+                                        <p class="lead">
+                                          Klasa 3. Najviša klasa digitalnih potpisa, potpisi klase 3 zahtijevaju od osobe ili organizacije da se predoče tijelu za ovjeravanje
+                                           kako bi dokazali svoj identitet prije potpisivanja. Digitalni potpisi klase 3 koriste se za e-takmičenja,
+                                            e-ticketing,u sudu i u drugim okruženjima gdje su prijetnje podacima ili posljedice sigurnosnog kvara visoke.
+                                        </p>
+                                      </li>
+                                </ul>
+                          
+
+                                <table class="table mt-4 text-light" id="razlike">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Digitalni potpis</th>
+                                            <th scope="col">Elektronski potpis</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row"></th>
+                                            <td>Osigurava dokument.</td>                           
+                                            <td>Verifikuje dokument.</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row"></th>
+                                            <td>Visok nivo autentičnosti</td>                            
+                                            <td>Lagan za upotrebu ali manje autentičan.</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row"></th>
+                                            <td>Napravljen od puno sigurnosnih značajki.</td>                            
+                                            <td>Napravljen sa manje sigurnostnih značajki.</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row"></th>
+                                            <td>Napravljeni za osiguravanje dokumenta.</td>                            
+                                            <td>Napravljeni za potpisivanje ugovora.</td>
+                                          </tr>
+                                        </tbody>
+                                </table>                
+                          </div>   
+                          <div class="col-10 offset-1 ps-5 bg-primary">
+                            <div class=" embed-responsive pb-5 pl-5 embed-responsive-16by9">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/704dudhA7UI" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>                                                 
+                          </div>                   
+                         
+                        </article>
+      
+        </div>
+        <footer>
+            <div class="container-fluid shadow border bg-llght">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                        <a class="nav-link" href="../naslovna.html">
+                            <i class="bi bi-person" style="font-size:30px">
+                            </i>
+                        </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/">
+                        <i class="bi-facebook" style="font-size:30px ">  </i> 
+                    </a>              
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="https://twitter.com/hatamadak?lang=hr">
+                        <i class=" bi-twitter"  style="font-size:30px"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/">
+                        <i class="bi bi-github" style="font-size:30px"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            
+              
+        </footer>
+       
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+</html>
